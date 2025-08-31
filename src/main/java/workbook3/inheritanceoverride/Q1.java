@@ -1,5 +1,7 @@
 package main.java.workbook3.inheritanceoverride;
 
+// `Animal` 클래스를 정의하여 `eat()` 메서드와 `name` 필드를 포함하고, `Dog` 클래스가 `Animal`을 상속받아 `bark()` 메서드를 추가
+// `main`에서 `Dog` 객체를 생성하여 `eat()`과 `bark()`를 호출
 class Animal {
     String name;
     void eat() {
