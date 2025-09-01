@@ -30,6 +30,7 @@ class Manager extends Employee {
         this.team = team;               // team을 매개변수 team의 값으로 초기화
     }
 
+    @Override
     void printInfo() {
         // TODO: super.printInfo() 호출 후 팀 정보 출력
         super.printInfo();                              // 부모 클래스의 printInfo() 메서드를 호출
